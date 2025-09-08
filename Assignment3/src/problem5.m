@@ -1,0 +1,15 @@
+clc; 
+clear all; 
+close all; 
+a1 = [4 -3 -1]; 
+a2 = [4 -3 1]; 
+a3 = [1 -13/12 3/8 -1/24]; 
+a4 = [1 -13/6 7/8 -1/24]; 
+s1 = schur_cohn(a1); 
+s2 = schur_cohn(a2); 
+s3 = schur_cohn(a3); 
+s4 = schur_cohn(a4); 
+fprintf('H1(z) is %s\n',s1); 
+fprintf('H2(z) is %s\n',s2); 
+fprintf('H3(z) is %s\n',s3); 
+fprintf('H4(z) is %s\n',s4); 
