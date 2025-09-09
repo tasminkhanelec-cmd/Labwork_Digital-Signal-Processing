@@ -1,4 +1,4 @@
-# 🎯 Course Overview
+# Course Overview
 
 This repository contains comprehensive laboratory work for the Digital Signal Processing course (Academic Year 2022), covering fundamental to advanced DSP concepts through hands-on MATLAB implementation. Each assignment builds upon previous knowledge, progressing from basic sampling theory to advanced filter design techniques.
 
